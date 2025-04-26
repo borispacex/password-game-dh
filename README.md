@@ -10,12 +10,24 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build 1
 ``` bash
 npm install -g angular-cli-ghpages
 ```
 ``` bash
 ng build --prod --base-href "https://github.com/borispacex/password-game-dh/"
+
+```
+``` bash
+npx angular-cli-ghpages --dir=dist/password-game-dh
+
+```
+
+## Build 2
+``` bash
+ng build --output-path docs --base-href /password-game-dh/
+```
+``` bash
 
 ```
 ``` bash
