@@ -27,13 +27,6 @@ npx angular-cli-ghpages --dir=dist/password-game-dh
 ``` bash
 ng build --output-path docs --base-href /password-game-dh/
 ```
-``` bash
-
-```
-``` bash
-npx angular-cli-ghpages --dir=dist/password-game-dh
-
-```
 
 ## Github pages
 https://borispacex.github.io/password-game-dh/
